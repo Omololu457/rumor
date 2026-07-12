@@ -1,0 +1,8 @@
+[
+  {"type": "reach_influence", "description": "Reach {threshold} Influence by the end of the game.", "threshold_range": [15, 28]},
+  {"type": "reach_reputation", "description": "Reach {threshold} Reputation by the end of the game.", "threshold_range": [12, 24]},
+  {"type": "expose_false", "description": "Successfully expose at least one false rumor before the game ends."},
+  {"type": "beat_snake", "description": "Finish the game with a higher Snake Score than {target}."},
+  {"type": "beat_honesty", "description": "Finish the game with a higher Honesty Score than {target}."},
+  {"type": "tank_reputation", "description": "Get {target}'s Reputation to drop below where it started."}
+]
