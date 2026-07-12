@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rumor &mdash; Join the table</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="phase-lobby">
+  <div class="wrap">
+    <div class="eyebrow">Put this screen where everyone can see it</div>
+    <h1><span class="bulb"></span>Join the table</h1>
+
+    <div class="card qr-wrap">
+      <img src="/qr.png" alt="QR code to join" width="260" height="260">
+    </div>
+
+    <p style="text-align:center;color:var(--text-dim);margin-bottom:4px;">or type this into your phone's browser</p>
+    <div class="address">{{ url }}</div>
+
+    <p style="text-align:center;margin-top:24px;color:var(--text-dim);font-size:0.85rem;">
+      Everyone needs to be on the same WiFi network as this computer.
+    </p>
+  </div>
+</body>
+</html>

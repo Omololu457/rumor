@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Rumor</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="phase-lobby">
+  <div class="wrap">
+    <div class="eyebrow">Everyone's talking</div>
+    <h1><span class="bulb"></span>Rumor</h1>
+    <p>Say who you are. Everyone at the table will see this name and photo &mdash; nothing else about you yet.</p>
+
+    {% if error %}
+      <div class="card" style="border-color:#A33636;color:#f0a4a4;">{{ error }}</div>
+    {% endif %}
+
+    <form class="card" action="/join" method="post" enctype="multipart/form-data">
+      <label for="name">Your name</label>
+      <input type="text" id="name" name="name" maxlength="30" required placeholder="What people will call you tonight">
+
+      <label for="descriptor">One-line descriptor <span style="color:var(--text-dim)">(optional)</span></label>
+      <input type="text" id="descriptor" name="descriptor" maxlength="60" placeholder="&quot;always knows something&quot;">
+
+      <label for="photo">Photo <span style="color:var(--text-dim)">(optional)</span></label>
+      <input type="file" id="photo" name="photo" accept="image/*" capture="user">
+
+      <button type="submit">Take a seat at the table</button>
+    </form>
+  </div>
+</body>
+</html>
