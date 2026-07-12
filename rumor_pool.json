@@ -1,0 +1,30 @@
+[
+  {"text": "{subject} has been quietly job-hunting behind their team's back.", "truth_status": "True", "base_severity": "Medium", "category": "career", "subjects_needed": 1},
+  {"text": "{subject} borrowed money from three different people and hasn't paid any of them back.", "truth_status": "True", "base_severity": "Medium", "category": "financial", "subjects_needed": 1},
+  {"text": "{subject} and {subject2} have been secretly seeing each other for months.", "truth_status": "True", "base_severity": "High", "category": "romantic", "subjects_needed": 2},
+  {"text": "{subject} is pregnant and hasn't told their family yet.", "truth_status": "True", "base_severity": "High", "category": "family", "subjects_needed": 1},
+  {"text": "{subject} has relapsed and is hiding it from everyone close to them.", "truth_status": "True", "base_severity": "Severe", "category": "health", "subjects_needed": 1},
+  {"text": "{subject} copied someone else's work and passed it off as their own.", "truth_status": "True", "base_severity": "Medium", "category": "academic", "subjects_needed": 1},
+  {"text": "{subject} has a fake account they use to keep tabs on their ex.", "truth_status": "True", "base_severity": "Medium", "category": "digital", "subjects_needed": 1},
+  {"text": "{subject} threw out {subject2}'s leftovers on purpose out of spite.", "truth_status": "True", "base_severity": "Low", "category": "petty", "subjects_needed": 2},
+  {"text": "{subject} never actually returned that hoodie they swore they gave back.", "truth_status": "True", "base_severity": "Low", "category": "petty", "subjects_needed": 1},
+  {"text": "{subject} started the seating chart drama on purpose to get a better spot.", "truth_status": "True", "base_severity": "Low", "category": "petty", "subjects_needed": 1},
+  {"text": "{subject} torpedoed {subject2}'s project on purpose to look better in front of the boss.", "truth_status": "True", "base_severity": "High", "category": "career", "subjects_needed": 2},
+
+  {"text": "{subject} is secretly engaged and hasn't announced it.", "truth_status": "Semi-True", "base_severity": "Medium", "category": "romantic", "subjects_needed": 1},
+  {"text": "{subject} is the reason {subject2} and their partner broke up.", "truth_status": "Semi-True", "base_severity": "High", "category": "romantic", "subjects_needed": 2},
+  {"text": "{subject} has been skimming from the shared expense fund.", "truth_status": "Semi-True", "base_severity": "High", "category": "financial", "subjects_needed": 1},
+  {"text": "{subject} is failing out of their program and covering it up.", "truth_status": "Semi-True", "base_severity": "Medium", "category": "academic", "subjects_needed": 1},
+  {"text": "{subject} read {subject2}'s messages without asking.", "truth_status": "Semi-True", "base_severity": "Medium", "category": "digital", "subjects_needed": 2},
+  {"text": "{subject}'s family cut them off financially months ago.", "truth_status": "Semi-True", "base_severity": "Medium", "category": "family", "subjects_needed": 1},
+
+  {"text": "{subject} is having an affair with {subject2}.", "truth_status": "False", "base_severity": "Severe", "category": "romantic", "subjects_needed": 2},
+  {"text": "{subject} is secretly a trust-fund kid pretending to be broke.", "truth_status": "False", "base_severity": "Medium", "category": "financial", "subjects_needed": 1},
+  {"text": "{subject} got kicked out of their last program for cheating.", "truth_status": "False", "base_severity": "High", "category": "academic", "subjects_needed": 1},
+  {"text": "{subject} has been tracking {subject2}'s location without them knowing.", "truth_status": "False", "base_severity": "Severe", "category": "digital", "subjects_needed": 2},
+  {"text": "{subject} is about to be disowned by their family.", "truth_status": "False", "base_severity": "High", "category": "family", "subjects_needed": 1},
+  {"text": "{subject} deliberately got {subject2} fired.", "truth_status": "False", "base_severity": "Severe", "category": "career", "subjects_needed": 2},
+  {"text": "{subject} has been telling people {subject2} can't be trusted with money.", "truth_status": "False", "base_severity": "Medium", "category": "financial", "subjects_needed": 2},
+  {"text": "{subject} only got where they are because of who they know, not what they did.", "truth_status": "False", "base_severity": "Low", "category": "career", "subjects_needed": 1},
+  {"text": "{subject} has been badmouthing {subject2} to everyone who'll listen.", "truth_status": "False", "base_severity": "Low", "category": "petty", "subjects_needed": 2}
+]
